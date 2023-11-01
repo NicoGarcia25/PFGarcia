@@ -1,0 +1,66 @@
+.navbar-brand{font-family:'Noto Serif NP Hmong', serif;font-size: 35px;padding-left:20px}
+
+.logo{height: 80px;width: 80px;}
+
+.container-fluid{background-color:  #55555589;;}
+header{margin: 0}
+
+a {text-decoration: none;}
+h2{text-align: center;font-family:'Titillium Web', sans-serif;font-size: 60px;}
+ul{list-style-type: none;}
+
+li{display: inline;font-size: 18px;margin: 5px;}
+
+div{font-size: 40px;font-family:'Titillium Web', sans-serif;text-align: left ;}
+img{width: 250px;}
+
+body{background-color:  #55555589;margin: 0;}
+
+.boton{ background-color: rgb(176, 175, 175);padding: 15px;font-size: 20px;width: 200px;align-items: center;justify-content: center;}
+.divBoton .boton{display: flex;margin-left: 400px;}
+.boton :hover{  color: #0077b5}
+p{font-family: 'Titillium Web', sans-serif;font-size: 30px;text-align: center;margin: 0;}
+
+img.sobreNosotros{width: 500px;}
+
+ol{display:grid;font-weight: 800;padding: 20px;margin: 20px;}
+
+div.servicios{text-align: justify;background-image:url(../imagenes/architecture-1719526_1920.jpg);background-position: 65%;background-size: auto ;}
+#whatsapp{background-color: green;color: #000000;margin: 20px;padding: 30px;font-size: 25px;}
+#instagram{background-color: rgb(201, 37, 163);color: #000000;margin: 20px;padding: 30px;font-size: 25px;}
+#carouselInicio{display: flex;justify-content: center;align-items: center;padding-top: 20px;padding-bottom: 20px;}
+.carousel-inner{width: 950px;height: 600px;margin: 0;}
+.Inicio{padding:20px;background-image:url(../imagenes/ladblanco.jpg);background-repeat: no-repeat;background-size: cover;}
+.Inicio1{background-image:url(../imagenes/ladblanco.jpg);background-repeat: no-repeat;background-size:cover;padding: 20;}
+
+.inicio2{background-image:url(../imagenes/ladblanco.jpg);background-repeat: no-repeat;background-size:cover;padding: 20px;}
+
+footer{background-color: #141414;padding: 40px;}
+.redes-sociales {
+    list-style: none;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center; margin-left:40px ;margin-right:40px;margin-top: 20px;margin-bottom: 0;}
+ 
+  .redes-sociales a {
+    color: #a82957;
+    font-size: 40px;
+    transition: color 0.3s ease-in-out;}
+
+    .form{background-image: url(../imagenes/architecture-1719526_1920.jpg);background-repeat: no-repeat;background-size: cover;padding-bottom: 40px;margin-bottom: 20px;width: 80%;margin-left: 40px;;}
+    .form-label{backdrop-filter: blur(3px);text-shadow:2px 2px 4px #dcd4d4 ;}
+
+    .redes-sociales a:hover {
+   color: #0077b5;}
+
+
+
+
+   @media (max-width:380px){.boton{background-color: rgb(176, 175, 175);font-size: 20px;padding: 15;;justify-content: center;align-items: center;display: flex;}
+   .redes-sociales{display: flex;justify-content: center;align-items: center;display:inline ;padding: 0;margin: 0;margin-left: 35px;}
+   .redes-sociales li{display: flex;justify-content: center;align-items: center;display: inline;}
+  .redes-sociales a{font-size: 40px;}
+.carousel-inner{height: 200px;}}
+   
+
+ 
