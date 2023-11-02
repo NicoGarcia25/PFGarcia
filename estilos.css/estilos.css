@@ -10,7 +10,7 @@ h2{text-align: center;
   font-family:'Titillium Web', sans-serif;
   font-size: 60px;}
 ul{list-style-type: none;}
-
+.Pcontacto{text-align: left;}
 li{display: inline;font-size: 18px;margin: 5px;}
 
 div{font-size: 40px;font-family:'Titillium Web', sans-serif;text-align: left ;}
@@ -21,9 +21,13 @@ body{background-color:  #55555589;margin: 0;}
 .boton{ background-color: rgb(176, 175, 175);
   padding: 15px;
   font-size: 20px;
-  width: 200px;align-items: center;
+  width: 200px;
+  display: flex;
+  align-items: center;
   justify-content: center;}
-.divBoton .boton{display: flex;margin-left: 400px;}
+
+.divBoton{display:flex;align-items: center;
+  justify-content: center;}
 .boton :hover{  color: #0077b5}
 p{font-family: 'Titillium Web', sans-serif;font-size: 30px;text-align: center;margin: 0;}
 
@@ -63,7 +67,7 @@ footer{background-color: #141414;padding: 40px;}
 
 
 
-   @media (max-width:380px){.boton{background-color: rgb(176, 175, 175);font-size: 20px;padding: 15;;justify-content: center;align-items: center;display: flex;}
+   @media (max-width:420px){.boton{background-color: rgb(176, 175, 175);font-size: 20px;padding: 15;;justify-content: center;align-items: center;display: flex;}
    .redes-sociales{display: flex;justify-content: center;align-items: center;display:inline ;padding: 0;margin: 0;margin-left: 35px;}
    .redes-sociales li{display: flex;justify-content: center;align-items: center;display: inline;}
   .redes-sociales a{font-size: 40px;}
