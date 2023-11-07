@@ -1,4 +1,4 @@
-.navbar-brand{font-family:'Noto Serif NP Hmong', serif;font-size: 35px;padding-left:20px}
+.navbar-brand{font-family:'Noto Serif NP Hmong', serif;font-size: 35px;}
 
 .logo{height: 80px;width: 80px;}
 
@@ -31,7 +31,6 @@ body{background-color:  #55555589;margin: 0;}
 .boton :hover{  color: #0077b5}
 p{font-family: 'Titillium Web', sans-serif;font-size: 30px;text-align: center;margin: 0;}
 
-img.sobreNosotros{width: 500px;}
 
 ol{display:grid;font-weight: 800;padding: 20px;margin: 20px;}
 
