@@ -138,9 +138,6 @@ div.servicios {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -156,7 +153,6 @@ div.servicios {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 20px;
-  text-shadow: #000000 -1px 2px 4px;
 }
 
 .fondoInicio {
@@ -398,7 +394,7 @@ h2 {
   height: 217.2px;
   padding: 15px;
   z-index: 2;
-  background: rgba(46, 44, 44, 0.7);
+  background: rgba(229, 223, 223, 0.363);
   text-align: center;
 }
 
@@ -411,14 +407,28 @@ h2 {
   font-weight: 600;
 }
 
-@media (max-width: 420px) {
+.form-control {
+  width: 80%;
+  text-align: center;
+}
+
+@media (max-width: 360px) {
+  h2 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .inicio2 {
+    padding-top: 0px;
+  }
+}
+
+@media (max-width: 425px) {
   .boton {
     background-color: #1c1919;
     font-size: 20px;
     padding: 15;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -456,18 +466,6 @@ h2 {
   .redes-sociales a {
     font-size: 40px;
   }
-  .carousel-inner {
-    height: 300px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
   #carouselInicio {
     height: 300px;
   }
@@ -494,6 +492,12 @@ h2 {
   }
   .miembros .card {
     margin-top: 40px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  p {
+    font-size: 22px;
   }
 }
 
